@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 
 url = "https://raw.githubusercontent.com/DariyaSavva/Machine-Learning/main/restaurant_data.csv"
-train_data = pd.read_csv(https://github.com/DariyaSavva/Machine-Learning/blob/main/train.csv)
+train_data = pd.read_csv(url)
 
 def make_features_numpy(data: np.ndarray) -> np.ndarray:
     shifts = [1, 5, 20, 100]
